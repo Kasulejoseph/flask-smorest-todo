@@ -16,7 +16,6 @@ class TaskList:
         ]
 
     def get_by_id(self, task_id):
-        print(task_id, self.task)
         for task in self.task:
             if task["id"] == task_id:
                 return task
